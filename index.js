@@ -22,7 +22,7 @@ const two = 2
 
 var funkyFunction = function() {
   return function() {
-    return "FUNKY!"
+    return 'FUNKY!'
   }
 }
 
@@ -31,3 +31,4 @@ var funkyFunction = function() {
 var theFunk = funkyFunction();
 theFunk;
 theFunk()
+
